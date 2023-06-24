@@ -16,7 +16,7 @@ This is a command-line tool that accepts a city's name as input and returns the 
 1. Clone or download this repository to your local machine.
 2. Sign up on the [OpenWeatherMap website](https://openweathermap.org/) to obtain an API key.
 3. Open the `weather_forecast.py` file in a text editor.
-4. Replace `"YOUR_API_KEY"` with your actual OpenWeatherMap API key (line 9).
+4. Replace `"api_key"` with your actual OpenWeatherMap API key (line 9).
    
 ## Usage
 
