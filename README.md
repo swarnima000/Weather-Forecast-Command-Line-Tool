@@ -9,7 +9,7 @@ This is a command-line tool that accepts a city's name as input and returns the 
 
 - Python 3.x installed on your system
 - `requests` library installed (you can install it by running `pip install requests`)
-- 'geopy' library installed (you can install it by running 'pip install geopy')
+- `geopy` library installed (you can install it by running `pip install geopy`)
 
 ## Getting Started
 
