@@ -1,5 +1,6 @@
 import requests
 import json
+import sys
 from geopy.geocoders import Nominatim
 
 def get_weather(latitude,longitude):
@@ -15,7 +16,10 @@ def get_weather(latitude,longitude):
 
 def main():
 
-    city = input("Enter a city name: ")
+    if len(sys.argv) < 2:
+        print("Please provide the city name as a command line argument.")
+    else:
+        city = " ".join(sys.argv[1:])
     latitude, longitude = get_coordinates(city)
     data = get_weather(latitude,longitude)
     if data is not None:
