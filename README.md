@@ -35,4 +35,6 @@ Run the command-line tool by executing the `weather_forecast.py` script from the
 - If no city name is provided as a command-line argument, an error message is displayed.
 
 
+
+
 This code was written using GitHub Copilot, which can help you with API usage, data parsing, and error handling. For example, if you are not sure how to construct the URL for the OpenWeatherMap API, GitHub Copilot can suggest code that will help you. Or, if you are having trouble parsing the JSON response from the API, GitHub Copilot can suggest code that will help you extract the relevant data. GitHub Copilot can also help you to handle errors that may occur when you are fetching weather data from the API.
