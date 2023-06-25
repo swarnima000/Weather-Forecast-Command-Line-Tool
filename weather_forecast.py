@@ -3,6 +3,8 @@ import json
 import sys
 from geopy.geocoders import Nominatim
 
+
+
 def get_weather(latitude,longitude):
 
     api_key = "1c6273f2826ec47926e8441361c1912f"
@@ -15,7 +17,7 @@ def get_weather(latitude,longitude):
         return None
 
 def main():
-
+    
     if len(sys.argv) < 2:
         print("Please provide the city name as a command line argument.")
     else:
@@ -31,13 +33,14 @@ def main():
     else:
         print("Could not find weather data for {}.".format(city))
 
-
+#using github copilot
 def get_coordinates(city):
-    geolocator = Nominatim(user_agent="my_app")  
+    geolocator = Nominatim(user_agent="weather_forecast.py")
     location = geolocator.geocode(city)
-    latitude = location.latitude
-    longitude = location.longitude
-    return latitude, longitude
+    if location is not None:
+        return location.latitude, location.longitude
+    else:
+        return None
 
 
 if __name__ == "__main__":
