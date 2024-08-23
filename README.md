@@ -3,7 +3,7 @@
 
 ## Weather Forecast Command-Line Tool
 
-This is a command-line tool that accepts a city's name as input and returns the current weather forecast using the OpenWeatherMap API. Leveraging OpenWeatherMap API to fetch weather data and parsing it using Python.
+This is a command-line tool that accepts a city's name as input and returns the current weather forecast using the OpenWeatherMap API. Leveraging OpenWeatherMap API to fetch weather data and parsing it using Python. Prepared for Github Copilot Hackathon.
 
 ### Prerequisites
 
